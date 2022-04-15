@@ -24,5 +24,12 @@ namespace WpfTutorialSamples
         {
             InitializeComponent();
         }
+
+        private void btnClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            lbResult.Items.Add(Application.Current.FindResource("AppTitle").ToString());
+            lbResult.Items.Add(this.FindResource("strHelloWorld").ToString());
+            lbResult.Items.Add(pnlMain.FindResource("strPanel").ToString());
+        }
     }
 }

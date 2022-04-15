@@ -7,14 +7,14 @@
         xmlns:sys="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
         Title="{StaticResource AppTitle}"  
-        Height="250"
+        Height="300"
         Width="350"
         Background="{DynamicResource WindowBackgroundBrush}">
     <Window.Resources>
         <sys:String x:Key="strHelloWorld">Hello, world!</sys:String>
-        
+
         <sys:String x:Key="ComboBoxTitle">Items:</sys:String>
-        
+
         <x:Array x:Key="ComboBoxItems" Type="sys:String">
             <sys:String>Item #1</sys:String>
             <sys:String>Item #2</sys:String>
@@ -26,13 +26,18 @@
             <GradientStop Offset="1" Color="Gray"/>
         </LinearGradientBrush>
     </Window.Resources>
-    <StackPanel Margin="10">
+    <StackPanel Margin="10" Name="pnlMain">
         <StackPanel.Resources>
             <sys:String x:Key="ComboBoxTitle">local Items:</sys:String>
+            <sys:String x:Key="strPanel">Hello, Panel world!</sys:String>
         </StackPanel.Resources>
         <TextBlock Text="{StaticResource strHelloWorld}" FontSize="56" />
         <TextBlock>Just another "<TextBlock Text="{StaticResource strHelloWorld}" />" example, but with resources!</TextBlock>
         <Label Content="{StaticResource ComboBoxTitle}"/>
         <ComboBox ItemsSource="{StaticResource ComboBoxItems}"/>
+        <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">
+            <Button Name="btnClickMe" Click="btnClickMe_Click">Click me!</Button>
+        </WrapPanel>
+        <ListBox Name="lbResult" Height="65"/>
     </StackPanel>
 </Window>
