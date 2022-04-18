@@ -27,9 +27,16 @@ namespace WpfTutorialSamples
 
         private void btnClickMe_Click(object sender, RoutedEventArgs e)
         {
-            lbResult.Items.Add(Application.Current.FindResource("AppTitle").ToString());
-            lbResult.Items.Add(this.FindResource("strHelloWorld").ToString());
-            lbResult.Items.Add(pnlMain.FindResource("strPanel").ToString());
+            string s = null;
+            try
+            {
+                s.Trim();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("A handled exception just occurred: " + ex.Message, "Exception Sample", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            s.Trim();
         }
     }
 }

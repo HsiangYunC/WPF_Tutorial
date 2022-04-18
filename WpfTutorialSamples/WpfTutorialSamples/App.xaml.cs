@@ -14,5 +14,11 @@ namespace WpfTutorialSamples
 			MainWindow wnd = new MainWindow();
             wnd.Show();
 		}
-	}
+
+        private void Application_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
+        {
+            MessageBox.Show("An App unhandled exception just occurred: " + e.Exception.Message, "Exception Sample", MessageBoxButton.OK, MessageBoxImage.Error);
+            e.Handled = true;
+        }
+    }
 }
