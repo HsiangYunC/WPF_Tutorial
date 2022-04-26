@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.Globalization;
+using System.Threading;
+using System.Windows;
 
 namespace WpfTutorialSamples
 {
@@ -10,15 +12,12 @@ namespace WpfTutorialSamples
 		// manually create starting window
 		private void Application_Startup(object sender, StartupEventArgs e)
 		{
-			// Create the startup window
-			MainWindow wnd = new MainWindow();
-            wnd.Show();
-		}
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
 
-        private void Application_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
-        {
-            MessageBox.Show("An App unhandled exception just occurred: " + e.Exception.Message, "Exception Sample", MessageBoxButton.OK, MessageBoxImage.Error);
-            e.Handled = true;
+            // Create the startup window
+            MainWindow wnd = new MainWindow();
+            wnd.Show();
         }
     }
 }

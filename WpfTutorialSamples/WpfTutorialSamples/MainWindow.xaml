@@ -4,23 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTutorialSamples" 
-        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
-        Title="WPF Tutorial Samples"  
-        Height="300"
-        Width="350"
-        Background="{DynamicResource WindowBackgroundBrush}">
-    <Window.Resources>
-        <sys:String x:Key="strHelloWorld">Hello, world!</sys:String>
-        <LinearGradientBrush x:Key="WindowBackgroundBrush">
-            <GradientStop Offset="0" Color="Silver"/>
-            <GradientStop Offset="1" Color="Gray"/>
-        </LinearGradientBrush>
-    </Window.Resources>
-    <StackPanel Margin="10" Name="pnlMain">
-        <TextBlock Text="{StaticResource strHelloWorld}" FontSize="56" />
-        <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">
-            <Button Name="btnClickMe" Click="btnClickMe_Click">Do something bad!</Button>
-        </WrapPanel>
+        Title="Application Culture Switch Sample" Height="200" Width="320">
+    <StackPanel Margin="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label>Number:</Label>
+            <Label Name="lblNumber" Grid.Column="1"/>
+            <Label Grid.Row="1">Date:</Label>
+            <Label Name="lbDate" Grid.Row="1" Grid.Column="1"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+            <Button Tag="en-US" Click="CultureInfoSwitchButton_Click" HorizontalAlignment="Stretch">English (US)</Button>
+            <Button Tag="de-DE" Click="CultureInfoSwitchButton_Click" HorizontalAlignment="Stretch" Margin="10,0">German (DE)</Button>
+            <Button Tag="sv-SE" Click="CultureInfoSwitchButton_Click" HorizontalAlignment="Stretch">Swedish (SE)</Button>
+        </StackPanel>
     </StackPanel>
 </Window>

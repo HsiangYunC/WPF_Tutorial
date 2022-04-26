@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,23 +22,24 @@ namespace WpfTutorialSamples
     /// </summary>
     public partial class MainWindow : Window
     {
+        double largeNumber = 123456789.42;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            CultureInfo usCulture = new CultureInfo("en-US");
+            CultureInfo deCulture = new CultureInfo("de-DE");
+            CultureInfo seCulture = new CultureInfo("sv-SE");
+
+            lblNumber.Content = largeNumber.ToString("N2", usCulture);
         }
 
-        private void btnClickMe_Click(object sender, RoutedEventArgs e)
+        private void CultureInfoSwitchButton_Click(object sender, RoutedEventArgs e)
         {
-            string s = null;
-            try
-            {
-                s.Trim();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("A handled exception just occurred: " + ex.Message, "Exception Sample", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
-            s.Trim();
+            Thread.CurrentThread.CurrentCulture = new CultureInfo((sender as Button).Tag.ToString());
+            lblNumber.Content = largeNumber.ToString("N2");
+            lbDate.Content = DateTime.Now.ToString();
         }
     }
 }
