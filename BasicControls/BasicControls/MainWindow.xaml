@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="200"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        <StackPanel Margin="10">
-            <Button x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
+        <StackPanel>
+            <Button Margin="5" x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
+            <Button Margin="5" x:Name="TextBlockInlineFormattingSample" Click="TextBlockInlineFormattingSample_Click">TextBlockSample</Button>
         </StackPanel>
     </Grid>
 </Window>

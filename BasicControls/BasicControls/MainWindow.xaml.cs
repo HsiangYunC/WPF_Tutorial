@@ -29,5 +29,11 @@ namespace BasicControls
         {
             new TextBlockSample().ShowDialog();
         }
+
+        private void TextBlockInlineFormattingSample_Click(object sender, RoutedEventArgs e)
+        {
+            var a = new TextBlockInlineFormattingSample();
+            a.ShowDialog();
+        }
     }
 }
