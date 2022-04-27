@@ -10,7 +10,8 @@
     <Grid>
         <StackPanel>
             <Button Margin="5" x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
-            <Button Margin="5" x:Name="TextBlockInlineFormattingSample" Click="TextBlockInlineFormattingSample_Click">TextBlockSample</Button>
+            <Button Margin="5" x:Name="TextBlockInlineFormattingSampleButton" Click="TextBlockInlineFormattingSampleButton_Click">TextBlockSample</Button>
+            <Button Margin="5" Name="LabelControlSampleButton" Click="LabelControlSampleButton_Click">LabelControlSample</Button>
         </StackPanel>
     </Grid>
 </Window>

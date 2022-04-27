@@ -30,10 +30,14 @@ namespace BasicControls
             new TextBlockSample().ShowDialog();
         }
 
-        private void TextBlockInlineFormattingSample_Click(object sender, RoutedEventArgs e)
+        private void TextBlockInlineFormattingSampleButton_Click(object sender, RoutedEventArgs e)
         {
-            var a = new TextBlockInlineFormattingSample();
-            a.ShowDialog();
+            new TextBlockInlineFormattingSample().ShowDialog();
+        }
+
+        private void LabelControlSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new LabelControlSample().ShowDialog();
         }
     }
 }
