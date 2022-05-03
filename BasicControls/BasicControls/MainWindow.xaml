@@ -13,6 +13,7 @@
             <Button Margin="5" x:Name="TextBlockInlineFormattingSampleButton" Click="TextBlockInlineFormattingSampleButton_Click">TextBlockSample</Button>
             <Button Margin="5" x:Name="LabelControlSampleButton" Click="LabelControlSampleButton_Click">LabelControlSample</Button>
             <Button Margin="5" x:Name="TextBoxControlSampleButton" Click="TextBoxControlSampleButton_Click">TextBoxControlSample</Button>
+            <Button Margin="5" x:Name="ButtonControlSampleButton" Click="ButtonControlSampleButton_Click">ButtonBoxControlSample</Button>
         </StackPanel>
     </Grid>
 </Window>

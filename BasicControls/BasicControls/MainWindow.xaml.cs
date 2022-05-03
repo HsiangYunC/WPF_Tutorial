@@ -44,5 +44,10 @@ namespace BasicControls
         {
             new TextBoxControlSample().ShowDialog();
         }
+
+        private void ButtonControlSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ButtonControlSample().ShowDialog();
+        }
     }
 }

@@ -1,0 +1,53 @@
+﻿<Window x:Class="BasicControls.ButtonControlSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicControls"
+        mc:Ignorable="d"
+        Title="ButtonControlSample" Height="300" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <BitmapImage x:Key="imageA" UriSource="/images/a.jpg"/>
+        <BitmapImage x:Key="imageB" UriSource="/images/b.jpg" />
+        <BitmapImage x:Key="imageC" UriSource="/images/c.jpg" />
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="5,5"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <Label>button :</Label>
+        <Button Click="HelloWorldButton_Click">Hello world!</Button>
+        <Label>button with formatted :</Label>
+        <Button Foreground="Blue" Background="Ivory" FontWeight="Bold">Formatted Button</Button>
+        <Label>button with advanced content :</Label>
+        <Button>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Formatted</TextBlock>
+                <TextBlock Foreground="Red" FontWeight="Bold" Margin="2,0">Button</TextBlock>
+                <TextBlock Foreground="Gray" FontStyle="Italic">[Various]</TextBlock>
+            </StackPanel>
+        </Button>
+        <Label>button with image :</Label>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Padding="5" Margin="0,5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="UniformToFill" Height="30" Source="{StaticResource imageA}"/>
+                    <TextBlock Margin="5,0" VerticalAlignment="Center">img1</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Padding="5" Margin="5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="UniformToFill" Height="30" Source="{StaticResource imageB}"/>
+                    <TextBlock Margin="5,0" VerticalAlignment="Center">img2</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Padding="5" Margin="0,5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="UniformToFill" Height="30" Source="{StaticResource imageC}"/>
+                    <TextBlock Margin="5,0" VerticalAlignment="Center">img3</TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
