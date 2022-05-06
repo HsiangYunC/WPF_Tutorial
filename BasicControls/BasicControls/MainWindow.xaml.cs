@@ -49,5 +49,10 @@ namespace BasicControls
         {
             new ButtonControlSample().ShowDialog();
         }
+
+        private void CheckBoxControlSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new CheckBoxControlSample().ShowDialog();
+        }
     }
 }

@@ -11,12 +11,18 @@
     <None Remove="images\a.jpg" />
     <None Remove="images\b.jpg" />
     <None Remove="images\c.jpg" />
+    <None Remove="images\IntellisenseLightBulb_16x.png" />
+    <None Remove="images\IntentTask_16x.png" />
+    <None Remove="images\Question_16x.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\a.jpg" />
     <Resource Include="images\b.jpg" />
     <Resource Include="images\c.jpg" />
+    <Resource Include="images\IntellisenseLightBulb_16x.png" />
+    <Resource Include="images\IntentTask_16x.png" />
+    <Resource Include="images\Question_16x.png" />
   </ItemGroup>
 
 </Project>

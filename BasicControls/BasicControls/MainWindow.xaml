@@ -7,13 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="200"
         WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/> 
+        </Style>
+    </Window.Resources>
     <Grid>
         <StackPanel>
-            <Button Margin="5" x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
-            <Button Margin="5" x:Name="TextBlockInlineFormattingSampleButton" Click="TextBlockInlineFormattingSampleButton_Click">TextBlockSample</Button>
-            <Button Margin="5" x:Name="LabelControlSampleButton" Click="LabelControlSampleButton_Click">LabelControlSample</Button>
-            <Button Margin="5" x:Name="TextBoxControlSampleButton" Click="TextBoxControlSampleButton_Click">TextBoxControlSample</Button>
-            <Button Margin="5" x:Name="ButtonControlSampleButton" Click="ButtonControlSampleButton_Click">ButtonBoxControlSample</Button>
+            <Button x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
+            <Button x:Name="TextBlockInlineFormattingSampleButton" Click="TextBlockInlineFormattingSampleButton_Click">TextBlockSample</Button>
+            <Button x:Name="LabelControlSampleButton" Click="LabelControlSampleButton_Click">LabelControlSample</Button>
+            <Button x:Name="TextBoxControlSampleButton" Click="TextBoxControlSampleButton_Click">TextBoxControlSample</Button>
+            <Button x:Name="ButtonControlSampleButton" Click="ButtonControlSampleButton_Click">ButtonControlSample</Button>
+            <Button x:Name="CheckBoxControlSampleButton" Click="CheckBoxControlSampleButton_Click">CheckBoxControlSample</Button>
         </StackPanel>
     </Grid>
 </Window>
