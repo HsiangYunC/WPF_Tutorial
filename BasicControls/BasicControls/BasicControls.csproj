@@ -13,6 +13,8 @@
     <None Remove="images\c.jpg" />
     <None Remove="images\IntellisenseLightBulb_16x.png" />
     <None Remove="images\IntentTask_16x.png" />
+    <None Remove="images\Monaco_FeedbackFrown_color_16x.png" />
+    <None Remove="images\Monaco_FeedbackSmile_color_16x.png" />
     <None Remove="images\Question_16x.png" />
   </ItemGroup>
 
@@ -22,6 +24,8 @@
     <Resource Include="images\c.jpg" />
     <Resource Include="images\IntellisenseLightBulb_16x.png" />
     <Resource Include="images\IntentTask_16x.png" />
+    <Resource Include="images\Monaco_FeedbackFrown_color_16x.png" />
+    <Resource Include="images\Monaco_FeedbackSmile_color_16x.png" />
     <Resource Include="images\Question_16x.png" />
   </ItemGroup>
 

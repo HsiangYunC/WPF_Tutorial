@@ -1,0 +1,40 @@
+﻿<Window x:Class="BasicControls.RadioButtonControlSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicControls"
+        mc:Ignorable="d"
+        Title="RadioButtonControlSample" Height="200" Width="200"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+        <StackPanel.Resources>
+            <BitmapImage x:Key="sad" UriSource="/images/Monaco_FeedbackFrown_color_16x.png"/>
+            <BitmapImage x:Key="happy" UriSource="/images/Monaco_FeedbackSmile_color_16x.png"/>
+            <BitmapImage x:Key="unknow" UriSource="/BasicControls;component/images/Question_16x.png"/>
+        </StackPanel.Resources>
+        <TextBlock FontWeight="ExtraBold">Are you ready?</TextBlock>
+        <RadioButton GroupName="ques1">
+            <WrapPanel>
+                <Image Source="{DynamicResource happy}" Width="16" Height="16"/>
+                <TextBlock Foreground="Red">Yes</TextBlock>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton GroupName="ques1">
+            <WrapPanel>
+                <Image Source="{DynamicResource sad}" Width="16" Height="16"/>
+                <TextBlock Foreground="Green">No</TextBlock>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton GroupName="ques1" IsChecked="True">
+            <WrapPanel>
+                <Image Source="{DynamicResource unknow}" Width="16" Height="16"/>
+                <TextBlock Foreground="Gray">Maybe</TextBlock>
+            </WrapPanel>
+        </RadioButton>
+        <TextBlock FontWeight="ExtraBold">Male or female?</TextBlock>
+        <RadioButton GroupName="ques2">Male</RadioButton>
+        <RadioButton GroupName="ques2">Female</RadioButton>
+        <RadioButton GroupName="ques2" IsChecked="True">Not sure</RadioButton>
+    </StackPanel>
+</Window>
