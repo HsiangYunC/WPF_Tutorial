@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="a.jpg" />
     <None Remove="images\a.jpg" />
     <None Remove="images\b.jpg" />
     <None Remove="images\c.jpg" />
+    <None Remove="images\Google_Calendar_icon_%282020%29.svg.png" />
+    <None Remove="images\Google_Earth_icon.svg.png" />
+    <None Remove="images\Google_Finance.png" />
+    <None Remove="images\Google_Fit_icon_%282018%29.svg.png" />
+    <None Remove="images\Google_Maps_icon_%282015-2020%29.svg.png" />
     <None Remove="images\IntellisenseLightBulb_16x.png" />
     <None Remove="images\IntentTask_16x.png" />
     <None Remove="images\Monaco_FeedbackFrown_color_16x.png" />
@@ -19,9 +23,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\Google_Calendar_icon_(2020).svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="images\a.jpg" />
     <Resource Include="images\b.jpg" />
     <Resource Include="images\c.jpg" />
+    <Resource Include="images\Google_Earth_icon.svg.png" />
+    <Resource Include="images\Google_Fit_icon_(2018).svg.png" />
+    <Resource Include="images\Google_Maps_icon_(2015-2020).svg.png" />
     <Resource Include="images\IntellisenseLightBulb_16x.png" />
     <Resource Include="images\IntentTask_16x.png" />
     <Resource Include="images\Monaco_FeedbackFrown_color_16x.png" />

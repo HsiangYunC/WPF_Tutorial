@@ -64,5 +64,10 @@ namespace BasicControls
         {
             new PasswordBoxControlSample().ShowDialog();
         }
+
+        private void ImageControlSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ImageControlSample().ShowDialog();
+        }
     }
 }

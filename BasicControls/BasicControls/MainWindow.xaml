@@ -22,6 +22,7 @@
             <Button x:Name="CheckBoxControlSampleButton" Click="CheckBoxControlSampleButton_Click">CheckBoxControlSample</Button>
             <Button x:Name="RadioButtonControlSampleButton" Click="RadioButtonControlSampleButton_Click">RadioButtonControlSample</Button>
             <Button x:Name="PasswordBoxControlSampleButton" Click="PasswordBoxControlSampleButton_Click">PasswordBoxControlSample</Button>
+            <Button x:Name="ImageControlSampleButton" Click="ImageControlSampleButton_Click">ImageControlSample</Button>
         </StackPanel>
     </Grid>
 </Window>

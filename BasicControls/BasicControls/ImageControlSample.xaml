@@ -1,0 +1,23 @@
+﻿<Window x:Class="BasicControls.ImageControlSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicControls"
+        mc:Ignorable="d"
+        Title="ImageControlSample" Height="450" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/GoogleLogoSept12015.png/640px-GoogleLogoSept12015.png"></Image>
+        <StackPanel x:Name="iconsPanel" Orientation="Horizontal">
+            <!-- Source = "<assembly_name>;<relative_path_of_the_resource>" -->
+            <Image Source="/BasicControls;component/images/Google_Maps_icon_(2015-2020).svg.png" Height="50" Margin="10"/>
+            <!-- simplify syntax -->
+            <Image Source="images/Google_Calendar_icon_(2020).svg.png" Height="50" Margin="10"/>
+        </StackPanel>
+        <Button x:Name="btnLoadFromFile" Click="btnLoadFromFile_Click">Load From File</Button>
+        <Image Name="imageFromFile" Height="80"/>
+        <Button x:Name="btnLoadFromResource" Click="btnLoadFromResource_Click">Load From Resource</Button>
+        <Image Name="imageFromResource" Height="80"/>
+    </StackPanel>
+</Window>
