@@ -34,5 +34,15 @@ namespace Control_concepts
         {
             new ToolTipsAdvancedSample().ShowDialog();
         }
+
+        private void TextFormattingModeSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new TextFormattingModeSample().ShowDialog();
+        }
+
+        private void TextRenderingModeSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new TextRenderingModeSample().ShowDialog();
+        }
     }
 }
