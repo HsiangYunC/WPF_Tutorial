@@ -68,6 +68,7 @@ namespace BasicControls
         private void ImageControlSampleButton_Click(object sender, RoutedEventArgs e)
         {
             new ImageControlSample().ShowDialog();
+            new ImageControlStretchSample().ShowDialog();
         }
     }
 }
