@@ -59,5 +59,10 @@ namespace BasicControls
         {
             new RadioButtonControlSample().ShowDialog();
         }
+
+        private void PasswordBoxControlSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new PasswordBoxControlSample().ShowDialog();
+        }
     }
 }
