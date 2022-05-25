@@ -18,6 +18,7 @@
             <Button x:Name="ToolTipsAdvancedSampleButton" Click="ToolTipsAdvancedSampleButton_Click">ToolTipsAdvancedSample</Button>
             <Button x:Name="TextFormattingModeSampleButton" Click="TextFormattingModeSampleButton_Click">TextFormattingModeSample</Button>
             <Button x:Name="TextRenderingModeSampleButton" Click="TextRenderingModeSampleButton_Click">TextRenderingModeSample</Button>
+            <Button x:Name="TabOrderSampleButton" Click="TabOrderSampleButton_Click">TabOrderSample</Button>
         </StackPanel>
     </Grid>
 </Window>

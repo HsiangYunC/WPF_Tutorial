@@ -44,5 +44,10 @@ namespace Control_concepts
         {
             new TextRenderingModeSample().ShowDialog();
         }
+
+        private void TabOrderSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new TabOrderSample().ShowDialog();
+        }
     }
 }
