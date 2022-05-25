@@ -49,5 +49,10 @@ namespace Control_concepts
         {
             new TabOrderSample().ShowDialog();
         }
+
+        private void AccessKeysSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new AccessKeysSample().ShowDialog();
+        }
     }
 }

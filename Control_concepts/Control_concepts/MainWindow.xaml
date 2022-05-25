@@ -19,6 +19,7 @@
             <Button x:Name="TextFormattingModeSampleButton" Click="TextFormattingModeSampleButton_Click">TextFormattingModeSample</Button>
             <Button x:Name="TextRenderingModeSampleButton" Click="TextRenderingModeSampleButton_Click">TextRenderingModeSample</Button>
             <Button x:Name="TabOrderSampleButton" Click="TabOrderSampleButton_Click">TabOrderSample</Button>
+            <Button x:Name="AccessKeysSampleButton" Click="AccessKeysSampleButton_Click">AccessKeysSample</Button>
         </StackPanel>
     </Grid>
 </Window>

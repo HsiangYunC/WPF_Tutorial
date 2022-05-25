@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <None Remove="images\FolderClosed_16x.png" />
+    <None Remove="images\IntellisenseLightBulb_16x.png" />
     <None Remove="images\NewFile_16x.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\FolderClosed_16x.png" />
+    <Resource Include="images\IntellisenseLightBulb_16x.png" />
     <Resource Include="images\NewFile_16x.png" />
   </ItemGroup>
 
