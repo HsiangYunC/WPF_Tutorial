@@ -44,5 +44,10 @@ namespace Panels
         {
             new StackPanelSample().ShowDialog();
         }
+
+        private void DockPanelSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new DockPanelSample().ShowDialog();
+        }
     }
 }
