@@ -16,5 +16,6 @@
         <Button x:Name="CanvasSampleButton" Click="CanvasSampleButton_Click">CanvasSample</Button>
         <Button x:Name="CanvasZIndexSampleButton" Click="CanvasZIndexSampleButton_Click">CanvasZIndexSample</Button>
         <Button x:Name="WrapPanelSampleButton" Click="WrapPanelSampleButton_Click">WrapPanelSample</Button>
+        <Button x:Name="StackPanelSampleButton" Click="StackPanelSampleButton_Click">StackPanelSample</Button>
     </StackPanel>
 </Window>

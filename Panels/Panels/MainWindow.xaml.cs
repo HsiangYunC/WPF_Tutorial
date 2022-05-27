@@ -39,5 +39,10 @@ namespace Panels
         {
             new WrapPanelSample().ShowDialog();
         }
+
+        private void StackPanelSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new StackPanelSample().ShowDialog();
+        }
     }
 }
