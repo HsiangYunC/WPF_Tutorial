@@ -25,5 +25,6 @@
         <TextBlock>Grid:</TextBlock>
         <Button x:Name="GridSampleButton" Click="GridSampleButton_Click">GridSample</Button>
         <Button x:Name="TabularGridSampleButton" Click="TabularGridSampleButton_Click">TabularGridSample</Button>
+        <Button x:Name="GridUnitsSampleButton" Click="GridUnitsSampleButton_Click">GridUnitsSample</Button>
     </StackPanel>
 </Window>

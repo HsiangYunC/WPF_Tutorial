@@ -59,5 +59,10 @@ namespace Panels
         {
             new TabularGridSample().ShowDialog();
         }
+
+        private void GridUnitsSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridUnitsSample().ShowDialog();
+        }
     }
 }
