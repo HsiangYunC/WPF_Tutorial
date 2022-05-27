@@ -64,5 +64,10 @@ namespace Panels
         {
             new GridUnitsSample().ShowDialog();
         }
+
+        private void GridColRowSpanSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridColRowSpanSample().ShowDialog();
+        }
     }
 }
