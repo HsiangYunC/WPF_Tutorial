@@ -34,5 +34,10 @@ namespace Panels
         {
             new CanvasZIndexSample().ShowDialog();
         }
+
+        private void WrapPanelSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new WrapPanelSample().ShowDialog();
+        }
     }
 }
