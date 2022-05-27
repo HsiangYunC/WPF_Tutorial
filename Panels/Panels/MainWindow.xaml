@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Panels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="200"
+        Title="MainWindow" Height="450" Width="200"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -13,11 +13,17 @@
         </Style> 
     </Window.Resources>
     <StackPanel>
+        <TextBlock>Canvas:</TextBlock>
         <Button x:Name="CanvasSampleButton" Click="CanvasSampleButton_Click">CanvasSample</Button>
         <Button x:Name="CanvasZIndexSampleButton" Click="CanvasZIndexSampleButton_Click">CanvasZIndexSample</Button>
+        <TextBlock>WrapPanel:</TextBlock>
         <Button x:Name="WrapPanelSampleButton" Click="WrapPanelSampleButton_Click">WrapPanelSample</Button>
+        <TextBlock>StackPanel:</TextBlock>
         <Button x:Name="StackPanelSampleButton" Click="StackPanelSampleButton_Click">StackPanelSample</Button>
+        <TextBlock>DockPanel:</TextBlock>
         <Button x:Name="DockPanelSampleButton" Click="DockPanelSampleButton_Click">DockPanelSample</Button>
+        <TextBlock>Grid:</TextBlock>
         <Button x:Name="GridSampleButton" Click="GridSampleButton_Click">GridSample</Button>
+        <Button x:Name="TabularGridSampleButton" Click="TabularGridSampleButton_Click">TabularGridSample</Button>
     </StackPanel>
 </Window>
