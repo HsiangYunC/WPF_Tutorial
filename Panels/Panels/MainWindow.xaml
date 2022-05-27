@@ -18,5 +18,6 @@
         <Button x:Name="WrapPanelSampleButton" Click="WrapPanelSampleButton_Click">WrapPanelSample</Button>
         <Button x:Name="StackPanelSampleButton" Click="StackPanelSampleButton_Click">StackPanelSample</Button>
         <Button x:Name="DockPanelSampleButton" Click="DockPanelSampleButton_Click">DockPanelSample</Button>
+        <Button x:Name="GridSampleButton" Click="GridSampleButton_Click">GridSample</Button>
     </StackPanel>
 </Window>

@@ -49,5 +49,10 @@ namespace Panels
         {
             new DockPanelSample().ShowDialog();
         }
+
+        private void GridSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridSample().ShowDialog();
+        }
     }
 }
