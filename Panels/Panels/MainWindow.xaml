@@ -27,5 +27,7 @@
         <Button x:Name="TabularGridSampleButton" Click="TabularGridSampleButton_Click">TabularGridSample</Button>
         <Button x:Name="GridUnitsSampleButton" Click="GridUnitsSampleButton_Click">GridUnitsSample</Button>
         <Button x:Name="GridColRowSpanSampleButton" Click="GridColRowSpanSampleButton_Click">GridColRowSpanSample</Button>
+        <Button x:Name="GridSplitterSampleButton" Click="GridSplitterSampleButton_Click">GridSplitterSample</Button>
+        <Button x:Name="GridSplitterHorizontalSampleButton" Click="GridSplitterHorizontalSampleButton_Click">GridSplitterHorizontalSample</Button>
     </StackPanel>
 </Window>

@@ -69,5 +69,15 @@ namespace Panels
         {
             new GridColRowSpanSample().ShowDialog();
         }
+
+        private void GridSplitterSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridSplitterSample().ShowDialog();
+        }
+
+        private void GridSplitterHorizontalSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridSplitterHorizontalSample().ShowDialog();
+        }
     }
 }
