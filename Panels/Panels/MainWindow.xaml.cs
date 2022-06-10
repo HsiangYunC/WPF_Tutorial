@@ -79,5 +79,10 @@ namespace Panels
         {
             new GridSplitterHorizontalSample().ShowDialog();
         }
+
+        private void GridContactFormSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new GridContactFormSample().ShowDialog();
+        }
     }
 }
