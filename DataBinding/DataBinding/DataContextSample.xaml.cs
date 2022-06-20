@@ -24,5 +24,11 @@ namespace DataBinding
             InitializeComponent();
             this.DataContext = this;
         }
+
+        private void btnUpdateSource_Click(object sender, RoutedEventArgs e)
+        {
+            BindingExpression binding = txtWindowTItle.GetBindingExpression(TextBox.TextProperty);
+            binding.UpdateSource();
+        }
     }
 }
