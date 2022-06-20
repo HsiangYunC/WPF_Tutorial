@@ -39,5 +39,10 @@ namespace DataBinding
         {
             new CodeBehindBindingsSample().ShowDialog();
         }
+
+        private void ChangeNotificationSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ChangeNotificationSample().ShowDialog();
+        }
     }
 }
