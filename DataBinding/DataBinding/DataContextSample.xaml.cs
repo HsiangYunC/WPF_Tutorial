@@ -10,29 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DataBinding
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DataContextSample.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DataContextSample : Window
     {
-        public MainWindow()
+        public DataContextSample()
         {
             InitializeComponent();
-        }
-
-        private void HelloBoundWorldSampleButton_Click(object sender, RoutedEventArgs e)
-        {
-            new HelloBoundWorldSample().ShowDialog();
-        }
-
-        private void DataContextSampleButton_Click(object sender, RoutedEventArgs e)
-        {
-            new DataContextSample().ShowDialog();
+            this.DataContext = this;
         }
     }
 }
