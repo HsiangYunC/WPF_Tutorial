@@ -34,5 +34,10 @@ namespace DataBinding
         {
             new DataContextSample().ShowDialog();
         }
+
+        private void CodeBehindBindingsSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new CodeBehindBindingsSample().ShowDialog();
+        }
     }
 }

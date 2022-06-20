@@ -15,5 +15,6 @@
     <StackPanel>
         <Button x:Name="HelloBoundWorldSampleButton" Click="HelloBoundWorldSampleButton_Click">HelloBoundWorldSample</Button>
         <Button x:Name="DataContextSampleButton" Click="DataContextSampleButton_Click">DataContextSample</Button>
+        <Button x:Name="CodeBehindBindingsSampleButton" Click="CodeBehindBindingsSampleButton_Click">CodeBehindBindingsSample</Button>
     </StackPanel>
 </Window>
