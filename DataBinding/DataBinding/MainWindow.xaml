@@ -17,5 +17,6 @@
         <Button x:Name="DataContextSampleButton" Click="DataContextSampleButton_Click">DataContextSample</Button>
         <Button x:Name="CodeBehindBindingsSampleButton" Click="CodeBehindBindingsSampleButton_Click">CodeBehindBindingsSample</Button>
         <Button x:Name="ChangeNotificationSampleButton" Click="ChangeNotificationSampleButton_Click">ChangeNotificationSample</Button>
+        <Button x:Name="ConverterSampleButton" Click="ConverterSampleButton_Click">ConverterSample</Button>
     </StackPanel>
 </Window>

@@ -44,5 +44,10 @@ namespace DataBinding
         {
             new ChangeNotificationSample().ShowDialog();
         }
+
+        private void ConverterSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ConverterSample().ShowDialog();
+        }
     }
 }
