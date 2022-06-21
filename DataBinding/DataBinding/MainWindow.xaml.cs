@@ -49,5 +49,10 @@ namespace DataBinding
         {
             new ConverterSample().ShowDialog();
         }
+
+        private void StringFormatSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new StringFormatSample().ShowDialog();
+        }
     }
 }
