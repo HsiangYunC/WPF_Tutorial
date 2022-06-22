@@ -1,0 +1,18 @@
+﻿<!-- added a reference to the System.Diagnostics namespace in the top -->
+<!-- reference: https://wpf-tutorial.com/data-binding/debugging/ -->
+<Window x:Class="DataBinding.DataBindingDebuggingSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+        xmlns:local="clr-namespace:DataBinding"
+        Title="DataBindingDebuggingSample" Height="100" Width="200"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:DebugDummyConverter x:Key="DebugDummyConverter"/>
+    </Window.Resources>
+    <Grid Margin="10" x:Name="pnlMain">
+        <!--<TextBlock Text="{Binding NonExistingProperty, ElementName=pnlMain}"/>-->
+        <TextBlock Text="{Binding Title, diag:PresentationTraceSources.TraceLevel=High}"/>
+        <TextBlock Text="{Binding Title, ElementName=wnd, Converter={StaticResource DebugDummyConverter}}"/>
+    </Grid>
+</Window>

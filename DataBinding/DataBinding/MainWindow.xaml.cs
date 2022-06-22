@@ -54,5 +54,10 @@ namespace DataBinding
         {
             new StringFormatSample().ShowDialog();
         }
+
+        private void DataBindingDebuggingSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new DataBindingDebuggingSample().ShowDialog();
+        }
     }
 }
