@@ -34,5 +34,10 @@ namespace Commands
         {
             new CommandCanExecuteSample().ShowDialog();
         }
+
+        private void CommandsWithCommandTargetSample_Click(object sender, RoutedEventArgs e)
+        {
+            new CommandsWithCommandTargetSample().ShowDialog();
+        }
     }
 }
