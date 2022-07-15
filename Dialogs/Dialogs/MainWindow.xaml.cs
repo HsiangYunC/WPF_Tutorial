@@ -21,5 +21,10 @@ namespace Dialogs
         {
             new OpenFileDialogSample().ShowDialog();
         }
+
+        private void OpenFileDialogMultipleFilesSample_Click(object sender, RoutedEventArgs e)
+        {
+            new OpenFileDialogMultipleFilesSample().ShowDialog();
+        }
     }
 }
