@@ -14,5 +14,6 @@
     </Window.Resources>
     <StackPanel>
         <Button x:Name="MessageBoxSample" Click="MessageBoxSample_Click">MessageBoxSample</Button>
+        <Button x:Name="OpenFileDialogSample" Click="OpenFileDialogSample_Click">OpenFileDialogSample</Button>
     </StackPanel>
 </Window>

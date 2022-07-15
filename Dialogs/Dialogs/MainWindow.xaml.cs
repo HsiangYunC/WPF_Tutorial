@@ -16,5 +16,10 @@ namespace Dialogs
         {
             new MessageBoxSample().ShowDialog();
         }
+
+        private void OpenFileDialogSample_Click(object sender, RoutedEventArgs e)
+        {
+            new OpenFileDialogSample().ShowDialog();
+        }
     }
 }
