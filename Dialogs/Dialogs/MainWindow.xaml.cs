@@ -31,5 +31,10 @@ namespace Dialogs
         {
             new SaveFileDialogSample().ShowDialog();
         }
+
+        private void InputDialogAppSample_Click(object sender, RoutedEventArgs e)
+        {
+            new InputDialogAppSample().ShowDialog();
+        }
     }
 }

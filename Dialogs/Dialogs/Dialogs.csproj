@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\Google_Maps_icon_%282015-2020%29.svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Google_Maps_icon_(2015-2020).svg.png" />
+  </ItemGroup>
+
 </Project>

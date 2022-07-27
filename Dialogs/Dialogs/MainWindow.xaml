@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dialogs"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="300"
+        Title="MainWindow" Height="250" Width="300"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -17,5 +17,6 @@
         <Button x:Name="OpenFileDialogSample" Click="OpenFileDialogSample_Click">OpenFileDialogSample</Button>
         <Button x:Name="OpenFileDialogMultipleFilesSample" Click="OpenFileDialogMultipleFilesSample_Click">OpenFileDialogMultipleFilesSample</Button>
         <Button x:Name="SaveFileDialogSample" Click="SaveFileDialogSample_Click">SaveFileDialogSample</Button>
+        <Button x:Name="InputDialogAppSample" Click="InputDialogAppSample_Click">InputDialogAppSample</Button>
     </StackPanel>
 </Window>
