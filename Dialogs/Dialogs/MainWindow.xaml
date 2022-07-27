@@ -16,5 +16,6 @@
         <Button x:Name="MessageBoxSample" Click="MessageBoxSample_Click">MessageBoxSample</Button>
         <Button x:Name="OpenFileDialogSample" Click="OpenFileDialogSample_Click">OpenFileDialogSample</Button>
         <Button x:Name="OpenFileDialogMultipleFilesSample" Click="OpenFileDialogMultipleFilesSample_Click">OpenFileDialogMultipleFilesSample</Button>
+        <Button x:Name="SaveFileDialogSample" Click="SaveFileDialogSample_Click">SaveFileDialogSample</Button>
     </StackPanel>
 </Window>
