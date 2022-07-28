@@ -13,6 +13,6 @@
         </Style>
     </Window.Resources>
     <StackPanel>
-        <Button x:Name="TextBlockSampleButton" Click="TextBlockSampleButton_Click">TextBlockSample</Button>
+        <Button x:Name="MenuSampleButton" Click="MenuSampleButton_Click">MenuSample</Button>
     </StackPanel>
 </Window>
