@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Common_interface_controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="250"
+        Title="MainWindow" Height="350" Width="250"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -20,5 +20,6 @@
         <Label Content="2. The WPF ContextMenu:"/>
         <Button x:Name="ContextMenuSampleButton" Click="ContextMenuSampleButton_Click">ContextMenuSample</Button>
         <Button x:Name="ContextMenuWithCommandsSampleButton" Click="ContextMenuWithCommandsSampleButton_Click">ContextMenuWithCommandsSample</Button>
+        <Button x:Name="ContextMenuManuallyInvokedSampleButton" Click="ContextMenuManuallyInvokedSampleButton_Click">ContextMenuManuallyInvokedSample</Button>
     </StackPanel>
 </Window>
