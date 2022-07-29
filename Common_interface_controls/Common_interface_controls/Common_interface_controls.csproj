@@ -7,10 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="image\icons8-copy-16.png" />
+    <None Remove="image\icons8-cut-16.png" />
+    <None Remove="image\icons8-paste-16.png" />
     <None Remove="image\user.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="image\icons8-copy-16.png" />
+    <Resource Include="image\icons8-cut-16.png" />
+    <Resource Include="image\icons8-paste-16.png" />
     <Resource Include="image\user.png" />
   </ItemGroup>
 
