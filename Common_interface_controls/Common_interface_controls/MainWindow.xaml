@@ -14,5 +14,6 @@
     </Window.Resources>
     <StackPanel>
         <Button x:Name="MenuSampleButton" Click="MenuSampleButton_Click">MenuSample</Button>
+        <Button x:Name="MenuIconCheckableSample" Click="MenuIconCheckableSampleButton_Click">MenuIconCheckableSample</Button>
     </StackPanel>
 </Window>
