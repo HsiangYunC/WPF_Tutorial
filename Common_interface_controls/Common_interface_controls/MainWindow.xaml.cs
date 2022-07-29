@@ -21,5 +21,10 @@ namespace Common_interface_controls
         {
             new MenuIconCheckableSample().ShowDialog();
         }
+
+        private void MenuWithCommandsSample_Click(object sender, RoutedEventArgs e)
+        {
+            new MenuWithCommandsSample().ShowDialog();
+        }
     }
 }
