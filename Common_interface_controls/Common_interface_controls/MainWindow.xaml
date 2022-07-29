@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Common_interface_controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="200"
+        Title="MainWindow" Height="250" Width="200"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -13,8 +13,11 @@
         </Style>
     </Window.Resources>
     <StackPanel>
+        <Label Content="1. The WPF Menu control:"/>
         <Button x:Name="MenuSampleButton" Click="MenuSampleButton_Click">MenuSample</Button>
-        <Button x:Name="MenuIconCheckableSample" Click="MenuIconCheckableSampleButton_Click">MenuIconCheckableSample</Button>
-        <Button x:Name="MenuWithCommandsSample" Click="MenuWithCommandsSample_Click">MenuWithCommandsSample</Button>
+        <Button x:Name="MenuIconCheckableSampleButton" Click="MenuIconCheckableSampleButton_Click">MenuIconCheckableSample</Button>
+        <Button x:Name="MenuWithCommandsSampleButton" Click="MenuWithCommandsSampleButton_Click">MenuWithCommandsSample</Button>
+        <Label Content="2. The WPF ContextMenu:"/>
+        <Button x:Name="ContextMenuSampleButton" Click="ContextMenuSampleButton_Click">ContextMenuSample</Button>
     </StackPanel>
 </Window>

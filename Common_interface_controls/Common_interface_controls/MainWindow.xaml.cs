@@ -22,9 +22,14 @@ namespace Common_interface_controls
             new MenuIconCheckableSample().ShowDialog();
         }
 
-        private void MenuWithCommandsSample_Click(object sender, RoutedEventArgs e)
+        private void MenuWithCommandsSampleButton_Click(object sender, RoutedEventArgs e)
         {
             new MenuWithCommandsSample().ShowDialog();
+        }
+
+        private void ContextMenuSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ContextMenuSample().ShowDialog();
         }
     }
 }
