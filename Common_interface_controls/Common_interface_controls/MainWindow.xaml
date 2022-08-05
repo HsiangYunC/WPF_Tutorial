@@ -5,23 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Common_interface_controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="250"
+        Title="MainWindow" Height="300" Width="500"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Margin" Value="5"/>
         </Style>
     </Window.Resources>
-    <StackPanel>
-        <Label Content="1. The WPF Menu control:"/>
-        <Button x:Name="MenuSampleButton" Click="MenuSampleButton_Click">MenuSample</Button>
-        <Button x:Name="MenuIconCheckableSampleButton" Click="MenuIconCheckableSampleButton_Click">MenuIconCheckableSample</Button>
-        <Button x:Name="MenuWithCommandsSampleButton" Click="MenuWithCommandsSampleButton_Click">MenuWithCommandsSample</Button>
-        <Label Content="2. The WPF ContextMenu:"/>
-        <Button x:Name="ContextMenuSampleButton" Click="ContextMenuSampleButton_Click">ContextMenuSample</Button>
-        <Button x:Name="ContextMenuWithCommandsSampleButton" Click="ContextMenuWithCommandsSampleButton_Click">ContextMenuWithCommandsSample</Button>
-        <Button x:Name="ContextMenuManuallyInvokedSampleButton" Click="ContextMenuManuallyInvokedSampleButton_Click">ContextMenuManuallyInvokedSample</Button>
-        <Label Content="3. The WPF ToolBar control:"/>
-        <Button x:Name="ToolbarSampleButton" Click="ToolbarSampleButton_Click">ToolbarSample</Button>
-    </StackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Label Content="1. The WPF Menu control:"/>
+            <Button x:Name="MenuSampleButton" Click="MenuSampleButton_Click">MenuSample</Button>
+            <Button x:Name="MenuIconCheckableSampleButton" Click="MenuIconCheckableSampleButton_Click">MenuIconCheckableSample</Button>
+            <Button x:Name="MenuWithCommandsSampleButton" Click="MenuWithCommandsSampleButton_Click">MenuWithCommandsSample</Button>
+            <Label Content="2. The WPF ContextMenu:"/>
+            <Button x:Name="ContextMenuSampleButton" Click="ContextMenuSampleButton_Click">ContextMenuSample</Button>
+            <Button x:Name="ContextMenuWithCommandsSampleButton" Click="ContextMenuWithCommandsSampleButton_Click">ContextMenuWithCommandsSample</Button>
+            <Button x:Name="ContextMenuManuallyInvokedSampleButton" Click="ContextMenuManuallyInvokedSampleButton_Click">ContextMenuManuallyInvokedSample</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Label Content="3. The WPF ToolBar control:"/>
+            <Button x:Name="ToolbarSampleButton" Click="ToolbarSampleButton_Click">ToolbarSample</Button>
+            <Button x:Name="ToolbarIconSampleButton" Click="ToolbarIconSampleButton_Click">ToolbarIconSampleButton</Button>
+        </StackPanel>
+    </Grid>
 </Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="Common_interface_controls.ToolbarIconSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ToolbarIconSample" Height="200" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Command="Cut" ToolTip="Cut selection to windows Clipboard.">
+                    <Image Source="/Common_interface_controls;component/image/icons8-cut-16.png"/>
+                </Button>
+                <Button Command="Copy" ToolTip="Copy selection to windows Clipboard.">
+                    <Image Source="/Common_interface_controls;component/image/icons8-copy-16.png"/>
+                </Button>
+                <Button Command="Paste" ToolTip="Paste selection to windows Clipboard.">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Common_interface_controls;component/image/icons8-paste-16.png"/>
+                        <TextBlock Margin="3,0,0,0">Paste</TextBlock>
+                    </StackPanel>
+                </Button>
+            </ToolBar>
+            <!-- Overflow seting-->
+            <!-- Decide which items are suitable for overflow hiding and which should always be visible -->
+            <!-- The default value is AsNeeded -->
+            <ToolBar>
+                <Button Command="Cut" Content="Cut" ToolBar.OverflowMode="Always" />
+                <Button Command="Copy" Content="Copy" ToolBar.OverflowMode="AsNeeded" />
+                <Button Command="Paste" Content="Paste" ToolBar.OverflowMode="Never" />
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox AcceptsReturn="True"/>
+    </DockPanel>
+</Window>
