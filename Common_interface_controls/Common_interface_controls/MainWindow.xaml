@@ -21,5 +21,7 @@
         <Button x:Name="ContextMenuSampleButton" Click="ContextMenuSampleButton_Click">ContextMenuSample</Button>
         <Button x:Name="ContextMenuWithCommandsSampleButton" Click="ContextMenuWithCommandsSampleButton_Click">ContextMenuWithCommandsSample</Button>
         <Button x:Name="ContextMenuManuallyInvokedSampleButton" Click="ContextMenuManuallyInvokedSampleButton_Click">ContextMenuManuallyInvokedSample</Button>
+        <Label Content="3. The WPF ToolBar control:"/>
+        <Button x:Name="ToolbarSampleButton" Click="ToolbarSampleButton_Click">ToolbarSample</Button>
     </StackPanel>
 </Window>

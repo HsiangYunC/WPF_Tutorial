@@ -41,5 +41,10 @@ namespace Common_interface_controls
         {
             new ContextMenuManuallyInvokedSample().ShowDialog();
         }
+
+        private void ToolbarSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ToolbarSample().ShowDialog();
+        }
     }
 }
