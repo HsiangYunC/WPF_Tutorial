@@ -51,5 +51,10 @@ namespace Common_interface_controls
         {
             new ToolbarIconSample().ShowDialog();
         }
+
+        private void ToolbarPositionSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ToolbarPositionSample().ShowDialog();
+        }
     }
 }

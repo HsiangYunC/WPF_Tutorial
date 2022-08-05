@@ -31,6 +31,7 @@
             <Label Content="3. The WPF ToolBar control:"/>
             <Button x:Name="ToolbarSampleButton" Click="ToolbarSampleButton_Click">ToolbarSample</Button>
             <Button x:Name="ToolbarIconSampleButton" Click="ToolbarIconSampleButton_Click">ToolbarIconSampleButton</Button>
+            <Button x:Name="ToolbarPositionSampleButton" Click="ToolbarPositionSampleButton_Click">ToolbarPositionSampleButton</Button>
         </StackPanel>
     </Grid>
 </Window>
