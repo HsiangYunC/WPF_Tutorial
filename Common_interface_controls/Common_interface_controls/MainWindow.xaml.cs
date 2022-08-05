@@ -56,5 +56,10 @@ namespace Common_interface_controls
         {
             new ToolbarPositionSample().ShowDialog();
         }
+
+        private void ToolbarCustomControlsSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ToolbarCustomControlsSample().ShowDialog();
+        }
     }
 }
