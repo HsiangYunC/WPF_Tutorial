@@ -30,9 +30,12 @@
         <StackPanel Grid.Column="1">
             <Label Content="3. The WPF ToolBar control:"/>
             <Button x:Name="ToolbarSampleButton" Click="ToolbarSampleButton_Click">ToolbarSample</Button>
-            <Button x:Name="ToolbarIconSampleButton" Click="ToolbarIconSampleButton_Click">ToolbarIconSampleButton</Button>
-            <Button x:Name="ToolbarPositionSampleButton" Click="ToolbarPositionSampleButton_Click">ToolbarPositionSampleButton</Button>
-            <Button x:Name="ToolbarCustomControlsSampleButton" Click="ToolbarCustomControlsSampleButton_Click">ToolbarCustomControlsSampleButton</Button>
+            <Button x:Name="ToolbarIconSampleButton" Click="ToolbarIconSampleButton_Click">ToolbarIconSample</Button>
+            <Button x:Name="ToolbarPositionSampleButton" Click="ToolbarPositionSampleButton_Click">ToolbarPositionSample</Button>
+            <Button x:Name="ToolbarCustomControlsSampleButton" Click="ToolbarCustomControlsSampleButton_Click">ToolbarCustomControlsSample</Button>
+            <Label Content="4. The WPF StatusBar control:"/>
+            <Button x:Name="StatusBarSampleButton" Click="StatusBarSampleButton_Click">StatusBarSample</Button>
+            <Button x:Name="StatusBarAdvancedSampleButton" Click="StatusBarAdvancedSampleButton_Click">StatusBarAdvancedSample</Button>
         </StackPanel>
     </Grid>
 </Window>

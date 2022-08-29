@@ -61,5 +61,15 @@ namespace Common_interface_controls
         {
             new ToolbarCustomControlsSample().ShowDialog();
         }
+
+        private void StatusBarSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new StatusBarSample().ShowDialog();
+        }
+
+        private void StatusBarAdvancedSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new StatusBarAdvancedSample().ShowDialog();
+        }
     }
 }
