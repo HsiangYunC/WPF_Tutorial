@@ -59,6 +59,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FlowDocumentReaderSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FlowDocumentScrollViewerSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +89,9 @@
     </Compile>
     <Compile Include="FlowDocumentPageViewerSample.xaml.cs">
       <DependentUpon>FlowDocumentPageViewerSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlowDocumentReaderSample.xaml.cs">
+      <DependentUpon>FlowDocumentReaderSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="FlowDocumentScrollViewerSample.xaml.cs">
       <DependentUpon>FlowDocumentScrollViewerSample.xaml</DependentUpon>
