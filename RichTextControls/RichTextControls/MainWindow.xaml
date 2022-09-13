@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RichTextControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="250"
+        Title="MainWindow" Height="300" Width="300"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -14,6 +14,7 @@
     </Window.Resources>
     <StackPanel>
         <Button x:Name="FlowDocumentScrollViewerSampleButton" Click="FlowDocumentScrollViewerSampleButton_Click">FlowDocumentScrollViewerSample</Button>
+        <Button x:Name="FlowDocumentScrollViewerZoomSampleButton" Click="FlowDocumentScrollViewerZoomSampleButton_Click">FlowDocumentScrollViewerZoomSample</Button>
 
     </StackPanel>
 </Window>

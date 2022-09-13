@@ -16,5 +16,10 @@ namespace RichTextControls
         {
             new FlowDocumentScrollViewerSample().ShowDialog();
         }
+
+        private void FlowDocumentScrollViewerZoomSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new FlowDocumentScrollViewerZoomSample().ShowDialog();
+        }
     }
 }
