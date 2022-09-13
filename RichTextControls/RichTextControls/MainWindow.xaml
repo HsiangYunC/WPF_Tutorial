@@ -19,5 +19,6 @@
         <Button x:Name="FlowDocumentPageViewerSampleButton" Click="FlowDocumentPageViewerSampleButton_Click">FlowDocumentPageViewerSample</Button>
         <Button x:Name="FlowDocumentSearchSampleButton" Click="FlowDocumentSearchSampleButton_Click">FlowDocumentSearchSample</Button>
         <Button x:Name="FlowDocumentReaderSampleButton" Click="FlowDocumentReaderSampleButton_Click">FlowDocumentReaderSample</Button>
+        <Button x:Name="CodeBehindFlowDocumentSampleButton" Click="CodeBehindFlowDocumentSampleButton_Click">CodeBehindFlowDocumentSample</Button>
     </StackPanel>
 </Window>
