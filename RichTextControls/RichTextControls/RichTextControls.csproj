@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +57,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CodeBehindFlowDocumentSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExtendedFlowDocumentSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -93,6 +98,9 @@
     </Compile>
     <Compile Include="CodeBehindFlowDocumentSample.xaml.cs">
       <DependentUpon>CodeBehindFlowDocumentSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedFlowDocumentSample.xaml.cs">
+      <DependentUpon>ExtendedFlowDocumentSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="FlowDocumentPageViewerSample.xaml.cs">
       <DependentUpon>FlowDocumentPageViewerSample.xaml</DependentUpon>
@@ -142,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Google_Earth_icon.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -46,5 +46,10 @@ namespace RichTextControls
         {
             new CodeBehindFlowDocumentSample().ShowDialog();
         }
+
+        private void ExtendedFlowDocumentSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ExtendedFlowDocumentSample().ShowDialog();
+        }
     }
 }
