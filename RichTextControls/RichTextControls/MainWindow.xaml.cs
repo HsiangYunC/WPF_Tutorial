@@ -26,5 +26,10 @@ namespace RichTextControls
         {
             new FlowDocumentTextAlignmentSample().ShowDialog();
         }
+
+        private void FlowDocumentPageViewerSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new FlowDocumentPageViewerSample().ShowDialog();
+        }
     }
 }
