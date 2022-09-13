@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:RichTextControls"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- specifying a global style -->
+        <Style TargetType="FlowDocument">
+            <Setter Property="IsOptimalParagraphEnabled" Value="True" />
+            <Setter Property="IsHyphenationEnabled" Value="True" />
+        </Style>
     </Application.Resources>
 </Application>

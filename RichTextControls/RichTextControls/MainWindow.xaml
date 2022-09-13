@@ -15,6 +15,7 @@
     <StackPanel>
         <Button x:Name="FlowDocumentScrollViewerSampleButton" Click="FlowDocumentScrollViewerSampleButton_Click">FlowDocumentScrollViewerSample</Button>
         <Button x:Name="FlowDocumentScrollViewerZoomSampleButton" Click="FlowDocumentScrollViewerZoomSampleButton_Click">FlowDocumentScrollViewerZoomSample</Button>
+        <Button x:Name="FlowDocumentTextAlignmentSampleButton" Click="FlowDocumentTextAlignmentSampleButton_Click">FlowDocumentTextAlignmentSample</Button>
 
     </StackPanel>
 </Window>
