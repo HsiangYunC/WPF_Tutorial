@@ -31,5 +31,10 @@ namespace RichTextControls
         {
             new FlowDocumentPageViewerSample().ShowDialog();
         }
+
+        private void FlowDocumentSearchSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new FlowDocumentSearchSample().ShowDialog();
+        }
     }
 }

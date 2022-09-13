@@ -67,6 +67,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FlowDocumentSearchSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FlowDocumentTextAlignmentSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -87,6 +91,9 @@
     </Compile>
     <Compile Include="FlowDocumentScrollViewerZoomSample.xaml.cs">
       <DependentUpon>FlowDocumentScrollViewerZoomSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlowDocumentSearchSample.xaml.cs">
+      <DependentUpon>FlowDocumentSearchSample.xaml</DependentUpon>
     </Compile>
     <Compile Include="FlowDocumentTextAlignmentSample.xaml.cs">
       <DependentUpon>FlowDocumentTextAlignmentSample.xaml</DependentUpon>
