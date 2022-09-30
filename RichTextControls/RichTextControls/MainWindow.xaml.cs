@@ -56,5 +56,10 @@ namespace RichTextControls
         {
             new BlockUIContainerSample().ShowDialog();
         }
+
+        private void RichTextBoxSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new RichTextBoxSample().ShowDialog();
+        }
     }
 }
