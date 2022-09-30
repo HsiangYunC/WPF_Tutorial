@@ -66,5 +66,10 @@ namespace RichTextControls
         {
             new RichTextBoxTextSelectionSample().ShowDialog();
         }
+
+        private void RichTextBoxParagraphSpacingSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new RichTextBoxParagraphSpacingSample().ShowDialog();
+        }
     }
 }
