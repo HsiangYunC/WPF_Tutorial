@@ -51,5 +51,10 @@ namespace RichTextControls
         {
             new ExtendedFlowDocumentSample().ShowDialog();
         }
+
+        private void BlockUIContainerSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new BlockUIContainerSample().ShowDialog();
+        }
     }
 }
