@@ -23,5 +23,6 @@
         <Button x:Name="ExtendedFlowDocumentSampleButton" Click="ExtendedFlowDocumentSampleButton_Click">ExtendedFlowDocumentSample</Button>
         <Button x:Name="BlockUIContainerSampleButton" Click="BlockUIContainerSampleButton_Click">BlockUIContainerSample</Button>
         <Button x:Name="RichTextBoxSampleButton" Click="RichTextBoxSampleButton_Click">RichTextBoxSample</Button>
+        <Button x:Name="RichTextBoxTextSelectionSampleButton" Click="RichTextBoxTextSelectionSampleButton_Click">RichTextBoxTextSelectionSample</Button>
     </StackPanel>
 </Window>

@@ -61,5 +61,10 @@ namespace RichTextControls
         {
             new RichTextBoxSample().ShowDialog();
         }
+
+        private void RichTextBoxTextSelectionSampleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new RichTextBoxTextSelectionSample().ShowDialog();
+        }
     }
 }

@@ -59,6 +59,9 @@
     <Compile Include="RichTextBoxSample.xaml.cs">
       <DependentUpon>RichTextBoxSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RichTextBoxTextSelectionSample.xaml.cs">
+      <DependentUpon>RichTextBoxTextSelectionSample.xaml</DependentUpon>
+    </Compile>
     <Page Include="BlockUIContainerSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -135,6 +138,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="RichTextBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextBoxTextSelectionSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
