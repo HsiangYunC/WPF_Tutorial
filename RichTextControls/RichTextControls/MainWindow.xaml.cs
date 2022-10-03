@@ -71,5 +71,10 @@ namespace RichTextControls
         {
             new RichTextBoxParagraphSpacingSample().ShowDialog();
         }
+
+        private void RichTextEditorSampleleButton_Click(object sender, RoutedEventArgs e)
+        {
+            new RichTextEditorSample().ShowDialog();
+        }
     }
 }

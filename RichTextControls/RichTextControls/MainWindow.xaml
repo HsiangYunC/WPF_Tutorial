@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RichTextControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="300"
+        Title="MainWindow" Height="450" Width="300"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button">
@@ -25,5 +25,6 @@
         <Button x:Name="RichTextBoxSampleButton" Click="RichTextBoxSampleButton_Click">RichTextBoxSample</Button>
         <Button x:Name="RichTextBoxTextSelectionSampleButton" Click="RichTextBoxTextSelectionSampleButton_Click">RichTextBoxTextSelectionSample</Button>
         <Button x:Name="RichTextBoxParagraphSpacingSampleButton" Click="RichTextBoxParagraphSpacingSampleButton_Click">RichTextBoxParagraphSpacingSample</Button>
+        <Button x:Name="RichTextEditorSampleleButton" Click="RichTextEditorSampleleButton_Click">RichTextEditorSample</Button>
     </StackPanel>
 </Window>
